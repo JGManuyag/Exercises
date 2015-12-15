@@ -1,0 +1,47 @@
+#div_edit
+{
+	margin: 30px;
+}
+table
+{
+	width: 40%;
+	padding: 40px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: gray;
+}
+.btn
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color:gray;
+	padding:6px 20px;
+	border-radius:2px;
+	border:2px solid white;
+	background-color: white; 
+}
+.btn:hover
+{
+	transition-duration: 0.4s;
+	background-color: yellow;
+	border:2px solid white;
+    color: white;
+}
+.btn1
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color:gray;
+	padding:6px 20px;
+	border-radius:2px;
+	border:2px solid white;
+	background-color: white; 
+}
+.btn1:hover
+{
+	transition-duration: 0.4s;
+	background-color: red;
+	border:2px solid white;
+    color: white;
+}

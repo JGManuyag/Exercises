@@ -1,0 +1,68 @@
+#div_view
+{
+	margin:70px;
+}
+table
+{
+	text-align: center;
+}
+thead
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: gray;
+}
+tbody
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+.btn
+{
+	font-family: 'Lato', sans-serif;
+	color:gray;
+	padding:3px 10px;
+	border-radius:2px;
+	border:2px solid white;
+	background-color: white; 
+}
+.btn:hover
+{
+	transition-duration: 0.4s;
+	background-color: yellow;
+	border:2px solid white;
+    color: white;
+}
+.btn1
+{
+	font-family: 'Lato', sans-serif;
+	color:gray;
+	padding:3px 10px;
+	border-radius:2px;
+	border:2px solid white;
+	background-color: white; 
+}
+.btn1:hover
+{
+	transition-duration: 0.4s;
+	background-color: red;
+	border:2px solid white;
+    color: white;
+}
+.btn2
+{
+	font-family: 'Lato', sans-serif;
+	color:gray;
+	padding:3px 10px;
+	border-radius:2px;
+	border:2px solid white;
+	background-color: white; 
+}
+.btn2:hover
+{
+	transition-duration: 0.4s;
+	background-color: green;
+	border:2px solid white;
+    color: white;
+}

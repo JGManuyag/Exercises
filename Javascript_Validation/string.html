@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String Validation Form</title>
+</head>
+<body>
+<script type="text/javascript">
+	function strValid()
+	{
+		var letters = /^[A-Za-z]+$/;
+		var x = document.forms['str_val']['txt1'].value;
+
+		if(x.match(letters))
+		{
+			alert('Valid input!');
+			return true;
+		}
+		else
+		{
+			alert('Please use letters only!');
+			return false;
+		}
+
+	}
+</script>
+<form name="str_val">
+	<div id="div_str">
+		<table align="center">
+			<tbody>
+				<tr>
+					<td>
+						<input type="text" name="txt1">
+						<input type="submit" name="btn1" value="Validate String" onclick="return strValid()">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</form>
+</body>
+</html>

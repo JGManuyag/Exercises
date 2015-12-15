@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Email Form</title>
+	<style type="text/css">
+		#div_email
+		{
+			margin-top: 30px;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+<form name="email_form" action="email_process.php" method="post" enctype="multipart/form-data">
+	<div id="div_email">
+		<table align="center" cellpadding="8" cellspacing="5">
+			<h2>Send your email here: </h2>
+			<tbody>
+				<tr>
+					<td>From: </td>
+					<td><input type="text" name="txt_email"></td>
+				</tr>
+				<tr>
+					<td>Subject: </td>
+					<td><input type="text" name="txt_subj"></td>
+				</tr>
+				<tr>
+					<td>Message:</td>
+					<td><textarea name="txt_msg" cols="21" rows="4"></textarea></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td><input type="submit" name="btn_send" value="Send Email"></td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+</form>
+</body>
+</html>
